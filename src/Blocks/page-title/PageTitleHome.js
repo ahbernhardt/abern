@@ -16,7 +16,7 @@ const PageTitleHome = () => {
                                 I’m a software developer.<br/>
                                 <br/>
                                 <br/>
-                                <span>Currently this website is still in process. <br/>
+                                <span>Currently this website is still in process.<br/>
                                     You can check-out my other website at
                                 <a
                                     href="https://anhnguyen.page"
