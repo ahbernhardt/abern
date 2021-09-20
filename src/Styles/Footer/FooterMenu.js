@@ -11,9 +11,9 @@ export const FooterMenuUl = styled.ul`
     color: ${({ theme }) => theme.text};
         li {
             padding-right: 15px;
-            // margin-bottom: 2rem;
+            margin-left: 2rem;
 
-        &:last-child {
+            &:last-child {
                 margin-right: 0;
             }
         }
@@ -29,5 +29,5 @@ export const FooterMenuUl = styled.ul`
         }
 `
 export const SubMenu = styled.div`
-    text-align: center;
+    text-align: left;
 `

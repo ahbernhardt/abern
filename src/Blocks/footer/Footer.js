@@ -1,11 +1,11 @@
 import React from 'react';
 import Copyright from './Copyright';
 import FooterMenu from './FooterMenu';
-import {mainFooter, FooterWrapper} from "../../Styles/Footer/Footer";
+import {MainFooter, FooterWrapper} from "../../Styles/Footer/Footer";
 
 const Footer = () => {
     return (
-        <mainFooter className="site-footer">
+        <MainFooter className="site-footer">
             <FooterWrapper className="wrapper no-space">
                     <div className="col-xl-4 col-lg-4 align-self-center">
                         <Copyright />
@@ -17,7 +17,7 @@ const Footer = () => {
                         </div>
                     </div>
             </FooterWrapper>
-        </mainFooter>
+        </MainFooter>
     );
 };
 

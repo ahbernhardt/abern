@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ToggleWrapper = styled.div`
- margin: 1rem 0;
+  margin: 1rem 0;
   transition: all .5s linear;
 `;
 

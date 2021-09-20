@@ -134,8 +134,8 @@ export const headerVar = {
 // Main
 //=============================
 export const mainVar = {
-    main_padding_t: '6.88rem',
-    main_padding_b: '5.1rem',
+    main_padding_t: '5px',
+    main_padding_b: '2rem',
 }
 
 //=============================

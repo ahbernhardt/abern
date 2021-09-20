@@ -1,7 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 // import styled from "styled-components"
-import { GlobalStyles, lightTheme, darkTheme } from '../Styles/globalStyles'
+import {GlobalStyles, lightTheme, darkTheme, LayoutWrapper} from '../Styles/globalStyles'
 import Logo from "./Logo";
 import Toggle from "./Toggle";
 import {useDarkMode} from "./useDarkMode";
@@ -18,13 +18,18 @@ export const Layout = ({ children}) => {
     return (
         <ThemeProvider theme={themeMode}>
             <GlobalStyles />
-            <Header>
-                <Menu/>
-                <Logo theme={theme} />
-                <Toggle theme={theme} toggleTheme={toggleTheme} />
-            </Header>
-            {children}
-            <Footer />
+            <LayoutWrapper>
+                <Header>
+                    <Menu/>
+                    <Logo theme={theme} />
+                    <Toggle theme={theme} toggleTheme={toggleTheme} />
+                </Header>
+
+                    {children}
+
+                <Footer />
+            </LayoutWrapper>
+
         </ThemeProvider>
     )
 }

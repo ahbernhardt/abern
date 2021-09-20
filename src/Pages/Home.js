@@ -31,9 +31,7 @@ const Home = () => {
             {/*<Loading />*/}
 
             <Layout>
-                <main id="main" className="site-main">
-                    <PageTitleHome />
-                </main>
+                <PageTitleHome />
             </Layout>
         </Fragment>
     );
