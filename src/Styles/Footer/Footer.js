@@ -14,6 +14,11 @@ export const FooterWrapper = styled.div`
      display: flex;
      justify-content: space-between;
      width: 100%;
+     
+      @media {$media.media_lg} {
+        margin-left: 30px;
+        width: 95%;
+      }
 `
 
 export const Menu = styled.div`

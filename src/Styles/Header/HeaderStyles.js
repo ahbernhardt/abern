@@ -8,4 +8,8 @@ export const Header = styled.header`
 	padding: 0 0 0 1rem;
 	width: 98%;
 	height: 65px;
+	
+	 @media {$media.media_lg} {
+        width: 95%;
+     }
 `;
