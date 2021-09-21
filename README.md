@@ -8,13 +8,13 @@
   anhbernhardt.com - v4
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://anhbernhardt.com" target="_blank">anhbernhardt.com</a> built with <a href="https://www.reactjs.org/" target="_blank">React</a> <!-- and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a> -->
+  The fourth iteration of <a href="https://anhbernhardt.com" target="_blank" rel="noopener noreferrer">anhbernhardt.com</a> built with <a href="https://www.reactjs.org/" target="_blank">React</a> <!-- and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a> -->
 </p>
 <p align="center">
   Previous iterations:
-  <a href="https://github.com/anguyen0208/resume-website" target="_blank">v1</a>,
-  <a href="https://github.com/anguyen0208/v2" target="_blank">v2</a>,
-  <a href="https://github.com/anguyen0208/anhnguyen.page" target="_blank">v3</a>
+  <a href="https://github.com/anguyen0208/resume-website" target="_blank" rel="noopener noreferrer">v1</a>,
+  <a href="https://github.com/anguyen0208/v2" target="_blank" rel="noopener noreferrer">v2</a>,
+  <a href="https://github.com/anguyen0208/anhnguyen.page" target="_blank" rel="noopener noreferrer">v3</a>
 </p>
 
 <!--
