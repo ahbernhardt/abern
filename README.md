@@ -12,9 +12,9 @@
 </p>
 <p align="center">
   Previous iterations:
-  <a href="https://github.com/anguyen0208/anhnguyen.page" target="_blank">v1</a>,
-  <a href="https://github.com/anguyen0208/anguyen0208.github.io" target="_blank">v2</a>,
-  <a href="https://github.com/anguyen0208/online-resume" target="_blank">v3</a>
+  <a href="https://github.com/anguyen0208/resume-website" target="_blank">v1</a>,
+  <a href="https://github.com/anguyen0208/v2" target="_blank">v2</a>,
+  <a href="https://github.com/anguyen0208/anhnguyen.page" target="_blank">v3</a>
 </p>
 
 <!--
