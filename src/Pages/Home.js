@@ -10,9 +10,9 @@ import PageTitleHome from "../Blocks/page-title/PageTitleHome";
 // import Contacts from '../blocks/contacts/Contacts';
 
 const Home = () => {
-    document.body.classList.add( 'home' );
-    document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    // document.body.classList.add( 'home' );
+    // document.body.classList.add( 'bg-fixed' );
+    // document.body.classList.add( 'bg-line' );
 
     return (
         <Fragment>

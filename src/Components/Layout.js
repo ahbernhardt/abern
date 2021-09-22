@@ -20,7 +20,7 @@ export const Layout = ({ children}) => {
             <GlobalStyles />
             <LayoutWrapper>
                 <Header>
-                    <Menu/>
+                    <Menu theme={theme}/>
                     <Logo theme={theme} />
                     <Toggle theme={theme} toggleTheme={toggleTheme} />
                 </Header>

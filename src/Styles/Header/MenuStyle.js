@@ -2,78 +2,16 @@
 // Menu
 //=================================================
 import styled from "styled-components";
-// import {colors, footerVar} from './variables'
+import {colors} from "../variables";
 
+export const MenuModal = styled.div`
+    background-color: ${({ theme }) => theme.menuBackground};
+    width: 95vw;
+    height: 95vh;
+    display: block;
+    padding: 2rem 2rem 0 2rem;
+`;
 
-export const MenuToggle = styled.div`
-    .icon-menu {
-        display: none;
-    }
-    
-    .modal-adv-1 {
-        background-image: url(../../img/bg/bg-half-ring-center-modal.svg);
-        background-color: $body_background_color;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left top;
-        min-width: 320px;
-
-        .modal-dialog {
-            &.modal-full {
-                max-width: 100%;
-                margin: 0;
-            }
-        
-            .modal-content {
-                border: 0;
-                min-height: 100vh;
-            }
-
-            .modal-header {
-                position: absolute;
-                z-index: 99;
-                width: 100%;
-                border: 0;
-                padding-top: $header_padding_t;
-                padding-bottom: $header_padding_b;
-                
-                .close {
-                    padding: 1rem;
-                    margin: 0 -1rem 0 auto;
-                }
-            }
-            
-            .input-group {
-                border-bottom: 1px solid $input_border_secondary_color;
-                
-                &.border-bottom {
-                    border-bottom: 1px solid $input_border_secondary_color !important;
-                }
-
-                .form-control {
-                    margin-bottom: -1px;
-                }
-            }
-            
-            .modal-footer {
-                border: 0;
-            }
-            
-            .modal {
-                &-header, &-body, &-footer {
-                    padding-left: 0;
-                    padding-right: 0;
-                }
-            }
-        }
-        
-        &.modal-body-pr {
-            .modal-body {
-                padding-right: 7.31rem;
-            }  
-        }
-    }
-`
 export const MenuButton = styled.button`
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -82,6 +20,30 @@ export const MenuButton = styled.button`
     color: ${({ theme }) => theme.text};
     border: none;  
     background-color: transparent; 
+    
+    &:focus {
+        outline: 0;
+    }
+    
+    i{
+        margin-left: 3px;
+    }
+   
+   
+`;
+export const MenuModalHead = styled.div`
+	display: flex;
+	justify-content: space-between;
+`
+export const MenuClose = styled.button`
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.81rem;
+    margin: 1.5rem 0;
+    color: ${({ theme }) => theme.text};
+    border: none;  
+    background-color: transparent; 
+    top: 180%;
      
     &:focus {
         outline: 0;
@@ -90,85 +52,80 @@ export const MenuButton = styled.button`
     i{
         margin-left: 3px;
     }
-`
-
-export const Menu = styled.div`
-    margin-bottom: -0.88rem;
-`
-
-export const ModalPage = styled.div`
-    margin-bottom: -0.88rem;
+   
+`;
+export const MenuContent = styled.div`
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.81rem;
+    margin: 1.5rem 0;
+    color: ${({ theme }) => theme.text};
+    border: none;  
     
-    &.modal-adv-1 {
-        background-image: url(../../img/bg/bg-half-ring-center-modal.svg);
-        background-color: $body_background_color;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left top;
-        min-width: 320px;
+     
+    &:focus {
+        outline: 0;
+    }
+    
+    i{
+        margin-left: 3px;
+    }
+   
+`;
 
-        .modal-dialog {
-            &.modal-full {
-                max-width: 100%;
-                margin: 0;
-            }
+export const MenuPrimary = styled.nav`
+   padding-bottom: 4rem;
+`
+export const MenuUl = styled.ul`
+    display: block;
+    list-style-type: none;
+    justify-content: space-between;
+    
+    color: ${({ theme }) => theme.text};
         
-            .modal-content {
-                border: 0;
-                min-height: 100vh;
-            }
-
-            .modal-header {
-                position: absolute;
-                z-index: 99;
-                width: 100%;
-                border: 0;
-                padding-top: $header_padding_t;
-                padding-bottom: $header_padding_b;
-                
-                .close {
-                    padding: 1rem;
-                    margin: 0 -1rem 0 auto;
-                }
-            }
+        li {
+            list-style: none;
+                margin-bottom: 2rem;
+                text-align: right;
             
-            .input-group {
-                border-bottom: 1px solid $input_border_secondary_color;
-                
-                &.border-bottom {
-                    border-bottom: 1px solid $input_border_secondary_color !important;
-                }
-
-                .form-control {
-                    margin-bottom: -1px;
-                }
-            }
-            
-            .modal-footer {
-                border: 0;
-            }
-            
-            .modal {
-                &-header, &-body, &-footer {
-                    padding-left: 0;
-                    padding-right: 0;
-                }
+            &:last-child {
+                margin-right: 0;
             }
         }
         
-        &.modal-body-pr {
-            .modal-body {
-                padding-right: 7.31rem;
-                
-                @media #{$media_lg} {
-                    padding-right: 3.65rem;
-                }
-                
-                @media #{$media_sm} {
-                    padding-right: 0;
-                }
-            }  
+        a {
+            color: ${({ theme }) => theme.text};
+            position: relative;
+            z-index: 1;
+            line-height: normal;
+            padding-left: 0.63rem;
+            padding-right: 0.63rem;
+            font-size: 4.4rem;
+            text-decoration: none;
+        }
+        
+        a:before {
+            content: "";
+            background-color: ${colors.menu_primary_links_element_color};
+            position: absolute;
+            left: 0;
+            right: 100%;
+            bottom: 1.6rem;
+            z-index: -1;
+            height: 2.1rem;
+            transition-property: right;
+            transition-duration: .4s;
+            transition-timing-function: ease-out;
+        }
+                    
+        a:hover {
+            opacity: 1;
+            @extend .transition-all;
+            
+            &:before {
+                right: 0;
+            }        
         }
     }
-`
+`;
 

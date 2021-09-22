@@ -11,13 +11,13 @@ export const FooterMenuUl = styled.ul`
     color: ${({ theme }) => theme.text};
         li {
             padding-right: 15px;
-            margin-left: 2rem;
-
+            padding-left: 2rem;
+            list-style-type: none;
             &:last-child {
                 margin-right: 0;
             }
         }
-        
+       
         a {
             height: 10px;
             color: ${({ theme }) => theme.text};

@@ -5,11 +5,11 @@ export const Header = styled.header`
 	top: 8px;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 0 0 1rem;
-	width: 98%;
+	// padding: 0 1rem 0 1rem;
+	width: 95%;
 	height: 65px;
 	
-	 @media {$media.media_lg} {
-        width: 95%;
-     }
+	 // @media {$media.media_md} {
+     //    width: 95%;
+     // }
 `;

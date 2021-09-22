@@ -4,22 +4,22 @@ import {colors, fonts, wrapper} from "../variables";
 export const PageTitleHomeSection = styled.div`
      display: block;
      // margin-top: 200px;
-     @media {$media.media_lg} {
-        width: 100%;
-     }
+     // @media {$media.media_lg} {
+     //    width: 100%;
+     // }
 `;
 
 export const HomeWrapper = styled.div`
-    max-width: ${wrapper};
     padding-left: 6.88rem;
     padding-right: 6.88rem;
     
-     @media {$media.media_lg} {
-        width: 100%;
-     }
+     // @media {$media.media_lg} {
+     //    // width: 100%;
+     // }
 `;
 
 export const Title = styled.div`
+    margin-top: -50px;
     
     h1 {
         font-size: 15rem;
@@ -64,23 +64,23 @@ export const Title = styled.div`
         }
     }
     
-    @media {$media.media_lg} {
-        h1 {
-            font-size: 10rem;
-            line-height: 1.25;
-        }
-        
-        p {
-            max-width: 70%;
-            font-size: 1.5rem;
-            margin-top: -100px;
-        
-        span{
-            font-size: 1rem;
-            a {
-                font-size: 1.2rem;
-            }
-
-        }
-    }
+    // @media {$media.media_lg} {
+    //     h1 {
+    //         font-size: 10rem;
+    //         line-height: 1.25;
+    //     }
+    //    
+    //     p {
+    //         max-width: 70%;
+    //         font-size: 1.5rem;
+    //         margin-top: -100px;
+    //    
+    //     span{
+    //         font-size: 1rem;
+    //         a {
+    //             font-size: 1.2rem;
+    //         }
+    //
+    //     }
+    // }
 `;
