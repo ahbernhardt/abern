@@ -53,13 +53,15 @@ export const Title = styled.div`
         
         span{
             font-size: 1.2rem;
+            margin-top: -150px;
             a {
                 color: ${({theme}) => theme.link};
                 text-decoration: none;
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
+            
             a:hover {
-                color: orange;
+                color:  ${colors.menu_primary_links_element_color};
             }
         }
     }

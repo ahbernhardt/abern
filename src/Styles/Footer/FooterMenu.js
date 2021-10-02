@@ -28,7 +28,7 @@ export const FooterMenuUl = styled.ul`
             line-height: normal;
             padding-left: 0.63rem;
             padding-right: 0.63rem;
-            font-size: 20px;
+            font-size: 16px;
         }
         
         a:before {

@@ -16,7 +16,7 @@ body {
 =============================*/
 p {
     // line-height: 1.75;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 0;
     
     &:last-child {

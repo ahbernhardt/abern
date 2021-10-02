@@ -77,8 +77,8 @@ export const MenuContent = styled.div`
 `;
 
 export const MenuPrimary = styled.nav`
-   padding-bottom: 1rem;
-   margin-bottom: 230px;
+   // padding-bottom: 1rem;
+   margin-bottom: 100px;
    // border: 1px solid white;
 `
 export const MenuUl = styled.ul`
@@ -134,7 +134,6 @@ export const MenuUl = styled.ul`
     }
 `;
 export const MenuFooter = styled.div`
-    font-size: 16px;
-    margin-left: -50px;
+    margin-left: -65px;
    // border: 1px solid white;
 `
