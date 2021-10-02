@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {colors} from "../variables";
 
 export const FooterMenuSecondary = styled.nav`
    display: flex;
@@ -9,6 +10,7 @@ export const FooterMenuUl = styled.ul`
     list-style-type: none;
     justify-content: space-between;
     color: ${({ theme }) => theme.text};
+    
         li {
             padding-right: 15px;
             padding-left: 2rem;
@@ -19,13 +21,37 @@ export const FooterMenuUl = styled.ul`
         }
        
         a {
-            height: 10px;
             color: ${({ theme }) => theme.text};
             text-decoration: none;
-            font-size: 16px;
+            position: relative;
+            z-index: 1;
+            line-height: normal;
+            padding-left: 0.63rem;
+            padding-right: 0.63rem;
+            font-size: 20px;
         }
+        
+        a:before {
+            content: "";
+            background-color: ${colors.menu_primary_links_element_color};
+            position: absolute;
+            left: 0;
+            right: 100%;
+            bottom: .5rem;
+            z-index: -1;
+            height: .5rem;
+            transition-property: right;
+            transition-duration: .4s;
+            transition-timing-function: ease-out;
+        }
+                    
         a:hover {
-            color: orange;
+            opacity: 1;
+            @extend .transition-all;
+            
+            &:before {
+                right: 0;
+            }        
         }
 `
 export const SubMenu = styled.div`

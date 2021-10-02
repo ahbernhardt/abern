@@ -7,9 +7,10 @@ import {colors} from "../variables";
 export const MenuModal = styled.div`
     background-color: ${({ theme }) => theme.menuBackground};
     width: 95vw;
-    height: 95vh;
+    height: 100vh;
     display: block;
     padding: 2rem 2rem 0 2rem;
+    // border: 1px solid red;
 `;
 
 export const MenuButton = styled.button`
@@ -34,6 +35,7 @@ export const MenuButton = styled.button`
 export const MenuModalHead = styled.div`
 	display: flex;
 	justify-content: space-between;
+	// border: 1px solid green;
 `
 export const MenuClose = styled.button`
     text-transform: uppercase;
@@ -59,9 +61,10 @@ export const MenuContent = styled.div`
     letter-spacing: 1.5px;
     font-size: 0.81rem;
     margin: 1.5rem 0;
+    height: 85vh;
     color: ${({ theme }) => theme.text};
     border: none;  
-    
+    // border: 1px solid blue;
      
     &:focus {
         outline: 0;
@@ -74,7 +77,9 @@ export const MenuContent = styled.div`
 `;
 
 export const MenuPrimary = styled.nav`
-   padding-bottom: 4rem;
+   padding-bottom: 1rem;
+   margin-bottom: 230px;
+   // border: 1px solid white;
 `
 export const MenuUl = styled.ul`
     display: block;
@@ -128,4 +133,8 @@ export const MenuUl = styled.ul`
         }
     }
 `;
-
+export const MenuFooter = styled.div`
+    font-size: 16px;
+    margin-left: -50px;
+   // border: 1px solid white;
+`

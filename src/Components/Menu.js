@@ -1,12 +1,10 @@
-import React, {Component, useState} from 'react';
-import {Button, Modal} from 'react-bootstrap';
-import {map} from "react-bootstrap/ElementChildren";
+import React from 'react';
 import FooterMenu from './../Blocks/footer/FooterMenu';
 import Logo from "./Logo";
 import {
     MenuButton,
     MenuClose,
-    MenuContent,
+    MenuContent, MenuFooter,
     MenuModal, MenuModalHead,
     MenuPrimary,
     MenuUl
@@ -54,9 +52,9 @@ export const Menu = ({theme}) => {
                                 </li>
                             </MenuUl>
                         </MenuPrimary>
-                        <div className="align-self-end">
+                        <MenuFooter>
                             <FooterMenu/>
-                        </div>
+                        </MenuFooter>
                     </MenuContent>
                 </MenuModal>
             )}

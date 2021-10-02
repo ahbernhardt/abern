@@ -10,7 +10,7 @@ export const MainFooter = styled.footer`
 `
 export const FooterWrapper = styled.div`
      padding-top: ${footerVar.footer_padding_t};
-     height: 0.5rem;
+     height: 1rem;
      display: flex;
      justify-content: space-between;
      
@@ -21,5 +21,5 @@ export const FooterWrapper = styled.div`
 `
 
 export const Menu = styled.div`
-    margin-bottom: -0.88rem;
+    margin-bottom: -0.5rem;
 `

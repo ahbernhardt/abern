@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {colors, fonts, wrapper} from "../variables";
+import {colors, fonts} from "../variables";
 
 export const PageTitleHomeSection = styled.div`
      display: block;
