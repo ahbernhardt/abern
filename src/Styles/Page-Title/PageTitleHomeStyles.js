@@ -47,7 +47,7 @@ export const Title = styled.div`
     }
     
     p {
-        max-width: 70%;
+        max-width: 100%;
         font-size: 1.85rem;
         margin-top: -150px;
         
@@ -57,7 +57,7 @@ export const Title = styled.div`
             a {
                 color: ${({theme}) => theme.link};
                 text-decoration: none;
-                font-size: 1rem;
+                font-size: 1.2rem;
             }
             
             a:hover {
